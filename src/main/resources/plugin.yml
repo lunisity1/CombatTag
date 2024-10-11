@@ -1,0 +1,5 @@
+name: CombatTag
+version: '${project.version}'
+main: dev.lunisity.combattag.CombatTag
+api-version: '1.19'
+authors: [Lunisity]

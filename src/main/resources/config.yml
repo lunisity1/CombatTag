@@ -1,0 +1,12 @@
+Seconds: 10 # How long the combat tag should last
+Logger-Format: "&c&l%player%'s Logger" # The title given to a combat logger
+
+Blacklisted: # All commands that cannot be run while tagged
+  - "/is go"
+  - "/spawn"
+  - "/hub"
+
+Messages: # All messages used
+  Tagged: "&cYou have been combat tagged! &7(%time%)"
+  On-Ct: "&cYou cannot use that command while combat tagged!"
+  No-Longer-Ct: "&cYou are no longer combat tagged!"
